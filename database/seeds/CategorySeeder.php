@@ -15,6 +15,7 @@ class CategorySeeder extends Seeder
     {
         // 10
         DB::table('categories')->insert([
+<<<<<<< HEAD
             'Name' => 'ANALGESTIK NARKOTIK',
             'Description' => 'lorem ipsum dolor sit amet, consectetur adip',
         ]);
@@ -62,6 +63,10 @@ class CategorySeeder extends Seeder
         DB::table('categories')->insert([
             'Name' => ' Antelmintik Intestinal',
             'Description' => 'lorem ipsum dolor sit amet, consectetur adip',
+=======
+            'Name' => 'Fentanil',
+            'Description' => 'a) inj:Hanya untuk nyeri berat danharus',
+>>>>>>> 231df880489363c9edacff5db721c7fa271c0fd4
         ]);
     }
 }

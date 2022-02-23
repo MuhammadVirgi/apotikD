@@ -25,6 +25,7 @@ class MedicineSeeder extends Seeder
             'faskes_TK2' => '✓ ',
             'faskes_TK3' => '✓ ',
             // data ada pada file
+<<<<<<< HEAD
         ]);
 
         DB::table('medicines')->insert([
@@ -122,6 +123,8 @@ class MedicineSeeder extends Seeder
             'faskes_TK2' => '✓ ',
             'faskes_TK3' => '✓ ',
             // data ada pada file
+=======
+>>>>>>> 231df880489363c9edacff5db721c7fa271c0fd4
         ]);
     }
 }
