@@ -16,7 +16,15 @@ class CreateMedicinesTable extends Migration
         Schema::create('medicines', function (Blueprint $table) {
             $table->id();
             // creating coloumn of products table
-            $table->string('medicines_name');
+            $table->string('generic_name');
+            $table->string('med_desc');
+            $table->string('formula');
+            $table->string('formula_desc');
+            $table->string('category');
+            $table->string('faskes_TK1'); // ini tipe datanya apa ? nullable ?
+            $table->string('faskes_TK2');
+            $table->string('faskes_TK3');
+
             $table->timestamps();
         });
     }
