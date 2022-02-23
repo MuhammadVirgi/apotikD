@@ -14,10 +14,15 @@ class MedicineSeeder extends Seeder
     {
         //
         DB::table('medicines')->insert([
-            'category_name' => 'Alat Kesehatan',
-            'category_name' => 'Alat Kesehatan',
-            'category_name' => 'Alat Kesehatan',
-            //data ada pada file
+            'generic_name' => 'Fentamil',
+            'med_desc' => 'Hanya untuk nyeri berat...',
+            'formula' => '10 Patch/bulan',
+            'formula_desc' => 'inj 0,05 mg/ML',
+            'category' => 'ANALGESIK NARTKOTIK',
+            'faskes_TK1' => '',
+            'faskes_TK2' => '✓ ',
+            'faskes_TK3' => '✓ ',
+            // data ada pada file
         ]);
     }
 }

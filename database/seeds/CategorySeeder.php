@@ -15,7 +15,8 @@ class CategorySeeder extends Seeder
     {
         //
         DB::table('categories')->insert([
-            'category_name' => 'Alat Kesehatan',
+            'Name' => 'Fentanil',
+            'Description' => 'a) inj:Hanya untuk nyeri berat danharus',
         ]);
     }
 }
