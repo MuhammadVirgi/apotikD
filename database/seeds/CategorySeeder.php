@@ -60,7 +60,7 @@ class CategorySeeder extends Seeder
         ]);
 
         DB::table('categories')->insert([
-            'Name' => ' Antelmintik Intestinal',
+            'Name' => ' Antelmintik Intestindls',
             'Description' => 'lorem ipsum dolor sit amet, consectetur adip',
             'Name' => 'Fentanil',
             'Description' => 'a) inj:Hanya untuk nyeri berat danharus',
