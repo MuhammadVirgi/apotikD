@@ -17,11 +17,12 @@ class MedicineController extends Controller
     public function index()
     {
         // TESTING CLASS 
-        //raw query
+        //raw querys
         // $result = DB::select(DB::row("select * from medicines"));
 
         // query builder
         $result = DB::table("medicines")->get();
+
 
         // eloquent model
         // $result = Medicine::all();
