@@ -24,7 +24,6 @@ class CreateMedicinesTable extends Migration
             $table->boolean('faskes_TK1');
             $table->boolean('faskes_TK2');
             $table->boolean('faskes_TK3');
-
             $table->timestamps();
         });
     }
