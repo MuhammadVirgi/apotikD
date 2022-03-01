@@ -27,7 +27,8 @@
             @foreach ($result as $r)
             {{-- $result ada pada controller --}}
         <tr>
-            <td>{{$r->name }}</td>
+            <td>{{$r->name }}</td> 
+            {{-- 'name' disesuaikan dengan nama tabel pada database  --}}
             <td>{{$r->description }}</td>
         </tr>
         @endforeach

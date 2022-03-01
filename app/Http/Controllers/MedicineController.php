@@ -33,6 +33,7 @@ class MedicineController extends Controller
 
         // to show in a url website , sama seperti routes
         return view("medicine.index", compact("result"));
+        // 'result' merupakan variabel '$result'
         // return view("medicine.index", ['data' => $result]);
     }
 
