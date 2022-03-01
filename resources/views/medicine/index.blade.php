@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Bootstrap Example</title>
+    <title>Medicines</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -10,6 +10,8 @@
     <style>
         .col-md-4{
             padding-top: 10px;
+            max-width: 25%; 
+            /* max width to make a maximum size of each image */
         }
         .midText {
             text-align: center;
@@ -23,7 +25,7 @@
     <div class="container">
         <div class="row">
             @foreach($result as $r)
-        <div class="col-md-4">
+        <div class="col-md-3">
             <img src="{{ asset('img/'.$r->images) }}" class="img-thumbnail"/>
             <div class="midText">
                 {{ $r->generic_name }}
